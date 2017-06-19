@@ -1,5 +1,9 @@
 
-
+/**
+ * Status code mapping
+ * @type {Object}
+ */
+ 
 module.exports = {
   100: 'Continue',
   101: 'Switching Protocols',
