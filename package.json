@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Send status code through HTTP response",
   "main": "index.js",
-  "scripts": {
-    "test": "tape test/*.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tether/http-code.git"

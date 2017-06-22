@@ -1,26 +1,30 @@
+# Response-Status
 
-# Http-Code
-
-[![Build Status](https://travis-ci.org/petrofeed/http-code.svg?branch=master)](https://travis-ci.org/petrofeed/http-code)
-[![NPM](https://img.shields.io/npm/v/http-code.svg)](https://www.npmjs.com/package/http-code)
-[![Downloads](https://img.shields.io/npm/dm/http-code.svg)](http://npm-stat.com/charts.html?package=http-code)
+[![Build Status](https://travis-ci.org/tether/response-status.svg?branch=master)](https://travis-ci.org/tether/response-status)
+[![NPM](https://img.shields.io/npm/v/response-status.svg)](https://www.npmjs.com/package/response-status)
+[![Downloads](https://img.shields.io/npm/dm/response-status.svg)](http://npm-stat.com/charts.html?package=response-status)
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
 
-This is a simple description.
+Send status code through HTTP response.
 
 ## Usage
 
 ```js
+const http = require('http')
+const status = require('response-status')
 
+http.createServer((request, response) => {
+  status(response, 401)
+})
 ```
 
 ## Installation
 
 ```shell
-npm install http-code --save
+npm install response-status --save
 ```
 
-[![NPM](https://nodei.co/npm/http-code.png)](https://nodei.co/npm/http-code/)
+[![NPM](https://nodei.co/npm/response-status.png)](https://nodei.co/npm/response-status/)
 
 
 ## Question
@@ -30,9 +34,9 @@ For support, bug reports and or feature requests please make sure to read our
 
 ## Contribution
 
-The open source community is very important to us. If you want to participate to this repository, please make sure to read our <a href="https://github.com/tether/contribution-guide" target="_blank">guideline</a> before making any pull request. If you have any related project, please let everyone know in our wiki.
-## License
+The open source community is very important to us. If you want to participate to this repository, please make sure to read our <a href="https://github.com/tether/contribution-guide" target="_blank">guidelines</a> before making any pull request. If you have any related project, please let everyone know in our wiki.
 
+## License
 
 The MIT License (MIT)
 
@@ -43,5 +47,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-  
-  
