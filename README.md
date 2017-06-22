@@ -1,6 +1,5 @@
 # Response-Status
 
-[![Build Status](https://travis-ci.org/tether/response-status.svg?branch=master)](https://travis-ci.org/tether/response-status)
 [![NPM](https://img.shields.io/npm/v/response-status.svg)](https://www.npmjs.com/package/response-status)
 [![Downloads](https://img.shields.io/npm/dm/response-status.svg)](http://npm-stat.com/charts.html?package=response-status)
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
