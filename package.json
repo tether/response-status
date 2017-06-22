@@ -1,5 +1,5 @@
 {
-  "name": "http-code",
+  "name": "response-status",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,9 +11,12 @@
     "url": "git+https://github.com/tether/http-code.git"
   },
   "keywords": [
-    "tether"
+    "http",
+    "response",
+    "status",
+    "code"
   ],
-  "author": "Petrofeed Inc",
+  "author": "Olivier Wietrich, Petrofeed Inc",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tether/http-code/issues"
