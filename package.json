@@ -1,4 +1,3 @@
-
 {
   "name": "http-code",
   "version": "1.0.0",
@@ -22,6 +21,8 @@
   "homepage": "https://github.com/tether/http-code#readme",
   "devDependencies": {
     "tape": "*"
+  },
+  "dependencies": {
+    "statuses": "^1.3.1"
   }
 }
-  

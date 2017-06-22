@@ -2,22 +2,21 @@
  * Dependencies.
  */
 
-const codes = require('./code')
+const status = require('statuses')
 
 
 /**
- * Send code through HTTP response.
+ * Send status code/message through HTTP response.
  *
+ * @param {Stream} response
  * @param {Number} code
- * @param {String} message
+ * @param {String?} message
+ * @param {Object?} properties
  * @api public
  */
 
-module.exports = function HttpError (code, message) {
-  Error.captureStackTrace(this, this.constructor)
-  this.name = this.constructor.name
-  this.code = code
-  this.message = message
+module.exports = (response, code) => {
+  response.statusCode = code
+  response.statusMessage = status[code]
+  response.end()
 }
-
-require('util').inherits(HttpError, Error)
