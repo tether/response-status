@@ -4,7 +4,7 @@
 [![Downloads](https://img.shields.io/npm/dm/response-status.svg)](http://npm-stat.com/charts.html?package=response-status)
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
 
-Send status code through HTTP response.
+Send standard status code through HTTP response.
 
 ## Usage
 
